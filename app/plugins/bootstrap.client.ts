@@ -1,4 +1,4 @@
-import { Modal, Dropdown } from 'bootstrap'
+import { Modal, Dropdown } from "bootstrap";
 
 export default defineNuxtPlugin(() => ({
   provide: {
@@ -7,4 +7,4 @@ export default defineNuxtPlugin(() => ({
       Dropdown,
     },
   },
-}))
+}));
