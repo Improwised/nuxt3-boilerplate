@@ -13,7 +13,6 @@ services:
       - HOST=0.0.0.0
     volumes:
       - ./app/:/usr/src/app/
-  
   json-server:
     build:
       context: ./app/
@@ -24,4 +23,3 @@ services:
     volumes:
       - ./data:/data
     restart: always
-  
