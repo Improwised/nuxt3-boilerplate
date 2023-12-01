@@ -86,3 +86,10 @@ npm run test
 ## Other Configuration file
 
 Please check husky folder/files,.eslintrc.js,.prettierrc,tsconfig.ts,vitest.config.ts,plugins folder/files
+
+
+## Run via Docker
+
+```docker-compose up --build```
+
+It will run nuxt application and json-server for fake REST API (https://www.npmjs.com/package/json-server)
