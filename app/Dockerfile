@@ -28,5 +28,5 @@ RUN mv .env.${MODE} .env
 # Run on port 3000
 EXPOSE 3000
 
-# Start supervisior
-CMD node .output/server/index.mjs
+# Start nuxt app
+CMD npm run start
