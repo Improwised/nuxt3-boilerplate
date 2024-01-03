@@ -4,7 +4,7 @@ Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introdu
 
 ## Installation
 
-- Node.js - v16.10.0 or newer
+- Node.js - v18.0.0 or newer
 
 ## Setup
 
