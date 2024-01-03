@@ -87,6 +87,14 @@ npm run test
 
 Please check husky folder/files,.eslintrc.js,.prettierrc,tsconfig.ts,vitest.config.ts,plugins folder/files
 
+## JSON Server
+
+[Documentation](https://github.com/typicode/json-server)
+
+json server run
+```
+npx json-server --watch data/db.json --port 5000
+```
 
 ## Run via Docker
 
