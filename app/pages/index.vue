@@ -3,6 +3,12 @@
 // import { useUsersStore } from "~/store/users";
 // const UsersStore = useUsersStore();
 // //console.log(UsersStore);
+
+/* To access environment variables defined within a composable */
+const systemEnv = useSystemEnv()
+console.log(systemEnv.value.base_url)
+
+
 </script>
 <template>
   <div class="text-center homepage">Welcome to nuxt3</div>
