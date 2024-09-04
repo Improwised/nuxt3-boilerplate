@@ -1,10 +1,10 @@
-# Management UI with Nuxt3
+# Management UI with Nuxt 3.13.0
 
 Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
 
 ## Installation
 
-- Node.js - v18.0.0 or newer
+- Node.js - v20.13.1 or newer
 
 ## Setup
 
@@ -17,77 +17,25 @@ git clone git@github.com:Improwised/nuxt3-boilerplate.git
 
 For UI everything is under /app/ folder, so go to /app/ folder.
 
-* Go to `/app/` folder. 
-
-* copy `.env.example` to `.env`. (skip if already done)
-
-## .env.example
-
-* copy `.env.example` to `.env`.
-```
-MODE=development
-BASE_URL=
-```
-* `MODE`: This will indicate application state.
-* `BASE_URL`: You can specify your application URL.
-
-* run following commands
-
-``` bash
-# Make sure to install the dependencies
-$ npm install 
-```
-
-## Development Server
-
-Start the development server on http://localhost:3000
-
-```bash
-npm run dev
-```
-
-## Included Packages
-
-- Bootstrap - for style
-- Pinia - for State management
-- Eslint - for on commit 
-- Prettier - for on commit
-- Vitest - for testcases
-- Husky - for pre-commit hooks
-- Commitlint - for github commit lint
+* Go to `/app/` folder.
 
 
+## MORE DETAILS :
+
+[README.md](https://github.com/Improwised/nuxt3-boilerplate/blob/main/app/README.md) && [DETAILS.md](https://github.com/Improwised/nuxt3-boilerplate/blob/main/app/DETAILS.md)
 
 
-## Store
+## App Included Packages
 
-This directory contains your Pinia Store files.
-
-for use pinia first define pinia in nuxt config file
-
-More information about the usage of this directory in [documentation]( https://pinia.vuejs.org/ssr/nuxt.html).
-
-* Go to `/app/store` folder, this folder includes,
-
-    * `actions`: Includes all the requests of project.
-    * `getters`: pinia allows us to define "getters" in the store. You can think of them as computed properties for stores.
-    *  `state`: Includes all the variable of the project.
+-    Pinia: For store management
+-    Bootstrap: Fot styling use Boostrap css framewok
+-    Eslint : for eslint and prettier
+-    Simple-git-hooks :  for precommit eslint and stylint fix
+-    Vitest && Nuxt/test-utils : For Test cases
+-    Nuxt/content : For nuxt module
 
 
-
-## Pinia Testcases
-This directory includes the test cases. *
-More information to write test cases you can visit this [documentation](https://vitest.dev/guide/)
-### for testcase run
-```
-npm run test
-```
-
-## Other Configuration file
-
-Please check husky folder/files,.eslintrc.js,.prettierrc,tsconfig.ts,vitest.config.ts,plugins folder/files
-
-## JSON Server
+## Other Tool if need JSON Server
 
 [Documentation](https://github.com/typicode/json-server)
 
