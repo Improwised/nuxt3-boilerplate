@@ -85,4 +85,4 @@ npm run test
 
 ## Pre commit hook will be auto lint fix when add commit
 
-## For Details Describes in [DETAILS.md](https://github.com/Improwised/nuxt3-boilerplate/blob/main/app/DETAILS.md)
+## For Details Describes in [DETAILS.md](https://github.com/Improwised/nuxt3-boilerplate/blob/main/app/Details.md)
