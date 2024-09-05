@@ -22,7 +22,7 @@ For UI everything is under /app/ folder, so go to /app/ folder.
 
 ## MORE DETAILS :
 
-[README.md](https://github.com/Improwised/nuxt3-boilerplate/blob/main/app/README.md) && [DETAILS.md](https://github.com/Improwised/nuxt3-boilerplate/blob/main/app/DETAILS.md)
+[README.md](https://github.com/Improwised/nuxt3-boilerplate/blob/main/app/README.md) && [DETAILS.md](https://github.com/Improwised/nuxt3-boilerplate/blob/main/app/Details.md)
 
 
 ## App Included Packages
