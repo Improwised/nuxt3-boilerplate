@@ -54,7 +54,7 @@ function showModal() {
               How to use Utils?
             </h5>
             <h6 class="card-subtitle mb-2 text-muted">
-              Check it utils folder and it's usage in basic.vue file
+              Check utils folder and its usage in basic.vue file
             </h6>
             <p class="card-text">
               Utils Example Output : {{ formatNumber(1234) }}
@@ -69,7 +69,7 @@ function showModal() {
               How to use Server Api?
             </h5>
             <h6 class="card-subtitle mb-2 text-muted">
-              Check it server folder and it's usage in basic.vue file
+              Check server folder and its usage in basic.vue file
             </h6>
             <p class="card-text">
               Server api Example Output : {{ data }}
@@ -84,7 +84,7 @@ function showModal() {
               How to use Content Module?
             </h5>
             <h6 class="card-subtitle mb-2 text-muted">
-              Check it content folder,nuxt-config and it's usage in basic.vue file
+              Check content folder,nuxt-config and its usage in basic.vue file
             </h6>
             <!-- ContentDoc returns content for `$route.path` by default or you can pass a `path` prop -->
             Content module Example Output : <ContentDoc />
@@ -99,10 +99,10 @@ function showModal() {
               How to use Testcase?
             </h5>
             <h6 class="card-subtitle mb-2 text-muted">
-              Check it tests folder,TestCaseComponent
+              Check tests folder,TestCaseComponent
             </h6>
             <!-- ContentDoc returns content for `$route.path` by default or you can pass a `path` prop -->
-            check it via npm run test
+            Check via npm run test
           </div>
         </div>
       </div>
@@ -113,7 +113,7 @@ function showModal() {
               How to use Composable with api?
             </h5>
             <h6 class="card-subtitle mb-2 text-muted">
-              Check it composable folder and it's usage in basic.vue file.
+              Check composable folder and its usage in basic.vue file.
               Composable module Example Output :
             </h6>
             <div>
@@ -133,9 +133,9 @@ function showModal() {
               How to use middleware with Store?
             </h5>
             <h6 class="card-subtitle mb-2 text-muted">
-              Check it middleware and store folder and it's usage in basic.vue file.
+              Check middleware and store folder and its usage in basic.vue file.
             </h6>
-            <p>Check it middleware and stores folder's code </p>
+            <p>Check middleware and stores folder's code </p>
           </div>
         </div>
       </div>
@@ -146,7 +146,7 @@ function showModal() {
               How to use Bootstrap JS with Navbar component?
             </h5>
             <h6 class="card-subtitle mb-2 text-muted">
-              Check it plugin folder and it's usage in basic.vue file.
+              Check plugin folder and its usage in basic.vue file.
             </h6>
             Boostrap Navbar Example Output : <Navbar />
           </div>
@@ -159,7 +159,7 @@ function showModal() {
               How to use Bootstrap JS with Modal component?
             </h5>
             <h6 class="card-subtitle mb-2 text-muted">
-              Check it plugin folder and it's usage in basic.vue file.
+              Check plugin folder and its usage in basic.vue file.
               Boostrap Modal Example Output :
             </h6>
             <button class="btn btn-success" @click="showModal">
@@ -181,7 +181,7 @@ function showModal() {
               How to use Composable static?
             </h5>
             <h6 class="card-subtitle mb-2 text-muted">
-              Check it Composable folder and it's usage in basic.vue file.
+              Check Composable folder and its usage in basic.vue file.
               Composable Example Output :
             </h6>
             <div>
